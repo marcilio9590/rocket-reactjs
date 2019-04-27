@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from './components/Header/header.component';
 import './styles.css';
-import Main from './pages/main/main.page';
+import Routes from './routes';
 
 const App = () => (
   <div className="App">
     <Header />
-    <Main />
+    <Routes />
   </div>
 );
 
